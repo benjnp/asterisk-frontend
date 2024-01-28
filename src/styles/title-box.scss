@@ -1,0 +1,17 @@
+.title-box {
+    border-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 10px 20px;
+    text-align: center;
+    h3 {
+        margin: 0;
+    }
+    @media only screen and (max-width: 579px) {
+        width: 160px;
+    }
+}

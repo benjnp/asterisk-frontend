@@ -1,0 +1,47 @@
+.info-box {
+    width: 250px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+
+    h3 {
+        opacity: 0.5;
+    }
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        width: 230px;
+        height: 120px;
+        border: solid white;
+        border-width: 1px 1px 0 0;
+        opacity: 0.5;
+    }
+    
+    &:before {
+        right: 2px;
+        top: 2px;
+        display: block;
+        opacity: 0.5;
+    }
+    
+    &:after {
+        border-width: 0 0 1px 1px;
+        bottom: 2px;
+        left: 2px;
+        display: block;
+    }
+    h2 { 
+        font-size: 22px;
+    }
+    p {
+        font-size: 16px;
+    }
+}

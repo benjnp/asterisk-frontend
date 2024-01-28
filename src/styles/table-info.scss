@@ -1,0 +1,34 @@
+.table-info {
+    tr, th {
+        border-bottom: 1px solid #fff; 
+    }
+    td, th {
+        padding: 30px 40px;
+        width: 100px;
+        text-align: center;
+    }
+    td:first-child {
+        font-weight: bold;
+    }
+    tr:last-child{
+        border-bottom: none; 
+    }
+    th:nth-child(n + 3) {
+        opacity: 0.5;
+    }
+    tr:first-child {
+        td:nth-child(n + 3) {
+            opacity: 0.5;
+        }
+    }
+    tr:nth-child(n + 2) {
+        td {
+            opacity: 0.5;
+        }
+    }
+    @media only screen and (max-width: 556px) {
+        td, th {
+            padding: 30px 20px;
+        }
+    }
+}

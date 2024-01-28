@@ -1,0 +1,11 @@
+.mint-page {
+  .background-fade {
+      background-image: linear-gradient(to bottom right, black 50%, transparent), url('~/public/images/bg-menu.svg');
+  }
+  .info-section {
+    position: relative;
+    .redirect-link {
+        text-decoration: underline;
+    }
+  }
+}

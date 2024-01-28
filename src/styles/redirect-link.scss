@@ -1,0 +1,8 @@
+.redirect-link {
+    a {
+        text-decoration: underline;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
